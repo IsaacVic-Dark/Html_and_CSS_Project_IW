@@ -1,0 +1,125 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h3{
+    font-family: "inter", sans-serif;
+}
+p{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+}
+label{
+    font-family: "inter", sans-serif;
+    opacity: 0.5;
+}
+button{
+    background-color: #3182CE;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+hr{
+    color: #E2E8F0;
+}
+div{
+    /* display: flex; */
+    align-items: center;
+}
+
+.right_account, .right_items, .auth, .order{
+    display: flex;
+}
+
+/* Navbar Section */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    color: #4A5568;
+    /* margin: 50px; */
+}
+
+.right, .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+#profile{
+    width: 44px;
+    height: 44px;
+}
+#logo{
+    width: 48px;
+    height: 29px;
+}
+
+/* Main Section */
+.account-padding{
+    padding-right: 10px;
+}
+.items-padding{
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+    margin-top: 50px;
+}
+.box_2, .box_3{
+    padding: 40px;
+    border-radius: 20px;
+}
+.box_2{
+    background-color: #F7FAFC;    
+    width: 600px;
+    height: 400px;
+    margin: 0px 40px 0px 70px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.box_3{
+    background-color: #F7FAFC;
+    width: 400px;
+    height: 400px;
+}
+
+/* box_2 */
+.login_btn{
+    padding: 15px 40px;
+}
+.shipping_btn{
+    padding: 15px 40px;
+}
+input{
+    padding: 15px 200px 15px 10px;
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 10px;
+}
+#account_color{
+    color: #3182CE;
+}
+.shipping_list{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.auth{
+    padding: 10px 0px 10px 113px;
+}
+.order{
+    padding: 10px 0px 10px 113px;
+}
+.input_field {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    gap: 1px; /* Add some space between label and input */
+}
+
+.input_field label {
+    text-align: left; /* Align text to the left */
+}
