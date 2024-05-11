@@ -1,0 +1,23 @@
+body{
+    background-color: #F2BF59;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.box_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 20px;
+}
+.box_1, .box_2, .box_3{
+    background-color: white;
+    margin-inline: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
