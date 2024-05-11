@@ -1,0 +1,1 @@
+The Card assignment screenshot.
