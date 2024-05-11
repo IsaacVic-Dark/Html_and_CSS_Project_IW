@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+p,h1,button{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500,700;    
+}
+p{
+    font-size: 15px;
+}
+h1{
+    font-size: 70px;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#learn_more{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+#login_btn{
+    border: none;
+}
+.left{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+/* Main Section */
+.main{
+    display: flex;
+    column-gap: 5rem;
+    margin: 2rem 7rem;
+}
+.main-left{
+    padding: 1rem;
+    width: 500px;
+    margin-top: 4rem;
+}
+.icons{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_right{
+    width: 400px;
+}
+.main_right img{
+    width: 450px;
+    height: auto;
+}
