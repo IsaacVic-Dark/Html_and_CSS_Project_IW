@@ -12,7 +12,8 @@ img{
 .box_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-inline: 20px;
+    padding-inline: 210px;
+    
 }
 .box_1, .box_2, .box_3{
     background-color: white;
@@ -20,4 +21,22 @@ img{
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+}
+.framework_logo{
+    display: inline-block;
+}
+.framework_logo .angular{
+    border: 2px solid rgb(224, 86, 86);
+    border-radius: 50%;
+    padding: 10px;
+}
+.framework_logo .react{
+    border: 2px solid rgb(10, 226, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
+.framework_logo .vue{
+    border: 2px solid rgb(105, 173, 41);
+    border-radius: 50%;
+    padding: 10px;
 }
